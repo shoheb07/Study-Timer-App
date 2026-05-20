@@ -1,0 +1,57 @@
+body{
+    margin:0;
+    padding:0;
+    font-family:Arial;
+    background:#f2f2f2;
+}
+
+.container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+
+.timer-box{
+    background:white;
+    padding:40px;
+    border-radius:10px;
+    text-align:center;
+    box-shadow:0 0 10px rgba(0,0,0,0.2);
+}
+
+h1{
+    margin-bottom:20px;
+}
+
+#timer{
+    font-size:60px;
+    color:#007bff;
+}
+
+.buttons{
+    margin-top:20px;
+}
+
+button{
+    padding:12px 20px;
+    margin:10px;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+    font-size:16px;
+}
+
+button:nth-child(1){
+    background:#28a745;
+    color:white;
+}
+
+button:nth-child(2){
+    background:#ffc107;
+}
+
+button:nth-child(3){
+    background:#dc3545;
+    color:white;
+}
